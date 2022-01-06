@@ -39,7 +39,7 @@ class AppTest {
     Median median=new Median();
     @Test
     public void checkWithUnsortedArrayForMedianFinder(){
-        Float[] array = {6.7f, 4.5f, 7.8f, 3.2f, 7.8f};
+        Float[] array = {6.7f, 4.5f, 7.8f, 3.2f, 8.9f};
         double output = 7.0f;
         Assertions.assertEquals(median.findMedian(array, array.length),output);
     }
